@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./screenshot.jpg)
-![Mobile](skdjfa)
-![Mobile-Menu]()
+![Desktop](https://github.com/NyiZinThant/sunnyside-agency-landing-page-frontend-menthor/blob/main/Design/Desktop.png)
+![Mobile](https://github.com/NyiZinThant/sunnyside-agency-landing-page-frontend-menthor/blob/main/Design/Mobile.png)
+![Mobile-Menu](https://github.com/NyiZinThant/sunnyside-agency-landing-page-frontend-menthor/blob/main/Design/Mobile-Menu.png)
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/html-css-js-bootstrap-rJeic2kLq)
