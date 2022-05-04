@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+* {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.blue {
+    color: hsl(198, 62%, 26%);
+}
+
+.green {
+    color: hsl(167, 40%, 24%);
+}
+
+.gray{
+    color: hsl(232, 10%, 55%);
+}
+
+.navbar-custom{
+    background-color: none;
+}
+
+.navbar-toggler:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.nav-btn{
+    background-color: white;
+}
+
+.brand-title {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.text-title {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+
+.about {
+    background-image: url("./images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+}
+
+.about-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.services h2,
+.services p,
+.learn-more {
+    width: 60%;
+}
+
+.bar {
+    width: 105px;
+    margin-top: -8px;
+    height: 7px;
+}
+
+.bar-yellow {
+    background-color: hsl(51, 100%, 49%);
+}
+
+.bar-pink {
+    background-color: hsl(7, 99%, 70%);
+}
+
+.projects p {
+    font-size: 13px;
+    width: 60%;
+}
+
+.card-text {
+    margin-top: -120px;
+}
+
+.member-card-body{
+    width: 280px;
+}
+
+.member-card-body p{
+    font-size: 13px;
+}
+
+footer{
+    background-color: hsl(167deg 44% 70%);
+}
+
+footer h4, footer p{
+    font-size: 23px;
+    color: hsl(168, 34%, 41%);
+}
+
+footer p{
+    font-size: 16px;
+}
+
+.social{
+    width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+    html, body{
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .palewhite{
+        color: hsl(213, 9%, 39%) !important;
+    }
+
+    .navbar-custom{
+        background-color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: -500px;
+        transition: .5s ease-in-out;
+    }
+
+    .active{
+        opacity: 1;
+        top: 0px;
+    }
+
+    .nav-btn{
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    .arrow-right{
+        position: absolute;
+        right: 0;
+        top: -30px;
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-left: 20px solid transparent;
+        border-right: 20px solid hsl(0, 0%, 100%);
+        border-bottom: 20px solid hsl(0, 0%, 100%);
+    }
+
+    .nav-item{
+        font-size: 19px;
+    }
+
+    .about {
+        background-image: url("./images/mobile/image-header.jpg");
+    }
+
+    .about-title {
+        margin-top: 150px;
+    }
+
+    .arrow-down{
+        margin-top: 260px;
+    }
+
+    .services h2,
+    .services p {
+        width: 90%;
+    }
+
+    .learn-more {
+        width: auto;
+    }
+
+    .projects p {
+        width: 90%;
+    }
+
+    .member-card-body{
+        width: 330px;
+    }
+}
